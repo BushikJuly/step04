@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+/* базовые настройки по сбросу стилей браузера */
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* box-sizing: border-box; */
+}
+/* размер блока классика
+= содержимое + внутренний отступ (padding) + рамка (border) + внешний отступ (margin)
+*/
+
+body{
+    /* background-color: #ccc; */
+    /* background: linear-gradient(45deg, #fff1eb, #ace0f9); */
+    background-image: url("../img/ava7patterns_pattern_1360.png");
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-position: 350px 250px; */
+    /* background-size: 300px; */
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    margin: 30px;
+    outline: 1px solid red;
+    padding: 20px;
+    border: 5px solid blue;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+main h1, main h2, main p{
+    text-align: left;
+}
+
+.wrapper{
+    max-width: 1000px;
+    outline: 1px solid green;
+    margin: 45px auto 25px auto;
+    /* background: linear-gradient(45deg, #fff1eb, #ace0f9); */
+    background-color: rgba(0, 0, 0, 0.513);
+    overflow: hidden;
+    padding: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 15px;
+    /* outline: 1px solid red; */
+    transition: all .4s;
+}
+nav ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Scada', sans-serif;
+    color: rgb(122, 66, 66);
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    /* font-size: 32px; */
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+input[type="text"]{
+    padding: 25px;
+    margin: 15px;
+    border: 1px solid blue;
+}
+
+h1, 
+.h1{
+    font-family: 'Scada', sans-serif;
+    font-size: 28px;
+}
+
+.logo{
+    /* padding: 15px;
+    border: 5px solid green;
+    margin: 25px;
+    background-color: rgb(211, 12, 12);
+    width: 150px;*/
+}
+
+main p{
+    margin: 25px 0;
+    text-indent: 25px;
+}
+
+.logoText{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.logoText1{
+    color: #fff;
+}
+.logoText2{
+    color: rgb(155, 25, 25);
+}
+.logoText3{
+    color: rgb(16, 216, 82);
+}
